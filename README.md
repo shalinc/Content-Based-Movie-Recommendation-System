@@ -12,4 +12,5 @@ After featurizing and vectorizing using tfidf we now find similarity between mov
     We compute the weighted average rating for every other movie that u has rated.
     Restrict this weighted average to movies that have a positive cosine similarity with movie i. 
     The weight for movie m corresponds to the cosine similarity between m and i. 
-    If there are no other movies with positive cosine similarity to use in the prediction, we use the mean rating of the target user in ratings_train as the prediction.
+    If there are no other movies with positive cosine similarity to use in the prediction, 
+    we use the mean rating of the target user in ratings_train as the prediction.
